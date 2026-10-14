@@ -1,0 +1,19 @@
+{
+  "name": "hogwarts-login-e2e",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Pruebas automatizadas del módulo de inicio de sesión de la Obra Social de los Trabajadores de Hogwarts",
+  "scripts": {
+    "test": "cucumber-js"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^11.3.0",
+    "@playwright/test": "^1.51.1",
+    "@types/node": "^22.13.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

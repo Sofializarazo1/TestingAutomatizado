@@ -1,0 +1,1030 @@
+[
+  {
+    "description": "  Como afiliado de la Obra Social de los Trabajadores de Hogwarts\n  Quiero iniciar sesión con mis credenciales\n  Para acceder a los servicios de la obra social",
+    "elements": [
+      {
+        "description": "",
+        "id": "inicio-de-sesión;validar-credenciales-de-inicio-de-sesión-(log-01)",
+        "keyword": "Esquema del escenario",
+        "line": 15,
+        "name": "Validar credenciales de inicio de sesión (LOG-01)",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 928154200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 8,
+            "name": "que estoy en la página de inicio de sesión",
+            "match": {
+              "location": "features\\step_definitions\\login.steps.ts:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4288261999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Cuando ",
+            "line": 9,
+            "name": "ingreso el correo \"\" y la contraseña \"\"",
+            "match": {
+              "location": "features\\step_definitions\\login.steps.ts:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 458770599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Y ",
+            "line": 10,
+            "name": "presiono el botón ingresar",
+            "match": {
+              "location": "features\\step_definitions\\login.steps.ts:43"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 76485099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Entonces ",
+            "line": 11,
+            "name": "debería ver el mensaje \"Por favor, completa ambos campos.\"",
+            "match": {
+              "location": "features\\step_definitions\\login.steps.ts:58"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 16285499
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 851900200
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "inicio-de-sesión;validar-credenciales-de-inicio-de-sesión-(log-02)",
+        "keyword": "Esquema del escenario",
+        "line": 16,
+        "name": "Validar credenciales de inicio de sesión (LOG-02)",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 292428599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 8,
+            "name": "que estoy en la página de inicio de sesión",
+            "match": {
+              "location": "features\\step_definitions\\login.steps.ts:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 755575400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Cuando ",
+            "line": 9,
+            "name": "ingreso el correo \"\" y la contraseña \"hermione2025\"",
+            "match": {
+              "location": "features\\step_definitions\\login.steps.ts:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 84594999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Y ",
+            "line": 10,
+            "name": "presiono el botón ingresar",
+            "match": {
+              "location": "features\\step_definitions\\login.steps.ts:43"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 142995100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Entonces ",
+            "line": 11,
+            "name": "debería ver el mensaje \"Por favor, completa ambos campos.\"",
+            "match": {
+              "location": "features\\step_definitions\\login.steps.ts:58"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 287958599
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 863030800
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "inicio-de-sesión;validar-credenciales-de-inicio-de-sesión-(log-03)",
+        "keyword": "Esquema del escenario",
+        "line": 17,
+        "name": "Validar credenciales de inicio de sesión (LOG-03)",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 211904399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 8,
+            "name": "que estoy en la página de inicio de sesión",
+            "match": {
+              "location": "features\\step_definitions\\login.steps.ts:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 528761800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Cuando ",
+            "line": 9,
+            "name": "ingreso el correo \"\" y la contraseña \"123\"",
+            "match": {
+              "location": "features\\step_definitions\\login.steps.ts:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 346201199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Y ",
+            "line": 10,
+            "name": "presiono el botón ingresar",
+            "match": {
+              "location": "features\\step_definitions\\login.steps.ts:43"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 45064099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Entonces ",
+            "line": 11,
+            "name": "debería ver el mensaje \"Por favor, completa ambos campos.\"",
+            "match": {
+              "location": "features\\step_definitions\\login.steps.ts:58"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8134199
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 780799699
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "inicio-de-sesión;validar-credenciales-de-inicio-de-sesión-(log-04)",
+        "keyword": "Esquema del escenario",
+        "line": 18,
+        "name": "Validar credenciales de inicio de sesión (LOG-04)",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 268317699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 8,
+            "name": "que estoy en la página de inicio de sesión",
+            "match": {
+              "location": "features\\step_definitions\\login.steps.ts:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 660252499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Cuando ",
+            "line": 9,
+            "name": "ingreso el correo \"ron@hogwarts.com\" y la contraseña \"\"",
+            "match": {
+              "location": "features\\step_definitions\\login.steps.ts:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 465465700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Y ",
+            "line": 10,
+            "name": "presiono el botón ingresar",
+            "match": {
+              "location": "features\\step_definitions\\login.steps.ts:43"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 74516400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Entonces ",
+            "line": 11,
+            "name": "debería ver el mensaje \"Por favor, completa ambos campos.\"",
+            "match": {
+              "location": "features\\step_definitions\\login.steps.ts:58"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9227899
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 810836099
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "inicio-de-sesión;validar-credenciales-de-inicio-de-sesión-(log-05)",
+        "keyword": "Esquema del escenario",
+        "line": 19,
+        "name": "Validar credenciales de inicio de sesión (LOG-05)",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 274134599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 8,
+            "name": "que estoy en la página de inicio de sesión",
+            "match": {
+              "location": "features\\step_definitions\\login.steps.ts:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 863337899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Cuando ",
+            "line": 9,
+            "name": "ingreso el correo \"ron@hogwarts.com\" y la contraseña \"hermione2025\"",
+            "match": {
+              "location": "features\\step_definitions\\login.steps.ts:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 379972399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Y ",
+            "line": 10,
+            "name": "presiono el botón ingresar",
+            "match": {
+              "location": "features\\step_definitions\\login.steps.ts:43"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 90170500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Entonces ",
+            "line": 11,
+            "name": "debería ver el mensaje \"Acceso autorizado. Redirección a la página principal.\"",
+            "match": {
+              "location": "features\\step_definitions\\login.steps.ts:58"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 49422699
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 769652500
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "inicio-de-sesión;validar-credenciales-de-inicio-de-sesión-(log-06)",
+        "keyword": "Esquema del escenario",
+        "line": 20,
+        "name": "Validar credenciales de inicio de sesión (LOG-06)",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 236021800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 8,
+            "name": "que estoy en la página de inicio de sesión",
+            "match": {
+              "location": "features\\step_definitions\\login.steps.ts:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 555662199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Cuando ",
+            "line": 9,
+            "name": "ingreso el correo \"ron@hogwarts.com\" y la contraseña \"123\"",
+            "match": {
+              "location": "features\\step_definitions\\login.steps.ts:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 363535200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Y ",
+            "line": 10,
+            "name": "presiono el botón ingresar",
+            "match": {
+              "location": "features\\step_definitions\\login.steps.ts:43"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 71645799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Entonces ",
+            "line": 11,
+            "name": "debería ver el mensaje \"Usuario correcto, pero la contraseña es incorrecta.\"",
+            "match": {
+              "location": "features\\step_definitions\\login.steps.ts:58"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9368399
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 798536599
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "inicio-de-sesión;validar-credenciales-de-inicio-de-sesión-(log-07)",
+        "keyword": "Esquema del escenario",
+        "line": 21,
+        "name": "Validar credenciales de inicio de sesión (LOG-07)",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 224025700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 8,
+            "name": "que estoy en la página de inicio de sesión",
+            "match": {
+              "location": "features\\step_definitions\\login.steps.ts:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 367813799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Cuando ",
+            "line": 9,
+            "name": "ingreso el correo \"vyvs@mail.com\" y la contraseña \"\"",
+            "match": {
+              "location": "features\\step_definitions\\login.steps.ts:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 421640099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Y ",
+            "line": 10,
+            "name": "presiono el botón ingresar",
+            "match": {
+              "location": "features\\step_definitions\\login.steps.ts:43"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 38723199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Entonces ",
+            "line": 11,
+            "name": "debería ver el mensaje \"Por favor, completa ambos campos.\"",
+            "match": {
+              "location": "features\\step_definitions\\login.steps.ts:58"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8301599
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 618314500
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "inicio-de-sesión;validar-credenciales-de-inicio-de-sesión-(log-08)",
+        "keyword": "Esquema del escenario",
+        "line": 22,
+        "name": "Validar credenciales de inicio de sesión (LOG-08)",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 262255600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 8,
+            "name": "que estoy en la página de inicio de sesión",
+            "match": {
+              "location": "features\\step_definitions\\login.steps.ts:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 585276099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Cuando ",
+            "line": 9,
+            "name": "ingreso el correo \"vyvs@mail.com\" y la contraseña \"hermione2025\"",
+            "match": {
+              "location": "features\\step_definitions\\login.steps.ts:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 383296399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Y ",
+            "line": 10,
+            "name": "presiono el botón ingresar",
+            "match": {
+              "location": "features\\step_definitions\\login.steps.ts:43"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 47549399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Entonces ",
+            "line": 11,
+            "name": "debería ver el mensaje \"El usuario no es correcto\"",
+            "match": {
+              "location": "features\\step_definitions\\login.steps.ts:58"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 10617999,
+              "error_message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"El usuario no es correcto\"\u001b[39m\nReceived: \u001b[31m\"El usuario no es correcto\u001b[7m.\u001b[27m\"\u001b[39m\n    at captureRawStack (C:\\Users\\sarso\\proyecto-4-login\\node_modules\\playwright-core\\lib\\coreBundle.js:9282:17)\n    at callMatcherAsStep (C:\\Users\\sarso\\proyecto-4-login\\node_modules\\playwright\\lib\\matchers\\expect.js:13316:57)\n    at Object.toBe (C:\\Users\\sarso\\proyecto-4-login\\node_modules\\playwright\\lib\\matchers\\expect.js:13308:23)\n    at World.<anonymous> (C:\\Users\\sarso\\proyecto-4-login\\features\\step_definitions\\login.steps.ts:61:56)"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 810716700
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "inicio-de-sesión;validar-credenciales-de-inicio-de-sesión-(log-09)",
+        "keyword": "Esquema del escenario",
+        "line": 23,
+        "name": "Validar credenciales de inicio de sesión (LOG-09)",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 261331599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 8,
+            "name": "que estoy en la página de inicio de sesión",
+            "match": {
+              "location": "features\\step_definitions\\login.steps.ts:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 588048599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Cuando ",
+            "line": 9,
+            "name": "ingreso el correo \"vyvs@mail.com\" y la contraseña \"123\"",
+            "match": {
+              "location": "features\\step_definitions\\login.steps.ts:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 111235499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Y ",
+            "line": 10,
+            "name": "presiono el botón ingresar",
+            "match": {
+              "location": "features\\step_definitions\\login.steps.ts:43"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 709847300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Entonces ",
+            "line": 11,
+            "name": "debería ver el mensaje \"El usuario no es correcto\"",
+            "match": {
+              "location": "features\\step_definitions\\login.steps.ts:58"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 10844300,
+              "error_message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"El usuario no es correcto\"\u001b[39m\nReceived: \u001b[31m\"El usuario no es correcto\u001b[7m.\u001b[27m\"\u001b[39m\n    at captureRawStack (C:\\Users\\sarso\\proyecto-4-login\\node_modules\\playwright-core\\lib\\coreBundle.js:9282:17)\n    at callMatcherAsStep (C:\\Users\\sarso\\proyecto-4-login\\node_modules\\playwright\\lib\\matchers\\expect.js:13316:57)\n    at Object.toBe (C:\\Users\\sarso\\proyecto-4-login\\node_modules\\playwright\\lib\\matchers\\expect.js:13308:23)\n    at World.<anonymous> (C:\\Users\\sarso\\proyecto-4-login\\features\\step_definitions\\login.steps.ts:61:56)"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 825264500
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "inicio-de-sesión;validar-credenciales-de-inicio-de-sesión-(log-10)",
+        "keyword": "Esquema del escenario",
+        "line": 24,
+        "name": "Validar credenciales de inicio de sesión (LOG-10)",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 336945899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 8,
+            "name": "que estoy en la página de inicio de sesión",
+            "match": {
+              "location": "features\\step_definitions\\login.steps.ts:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 490792799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Cuando ",
+            "line": 9,
+            "name": "ingreso el correo \"harry.com\" y la contraseña \"\"",
+            "match": {
+              "location": "features\\step_definitions\\login.steps.ts:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 58511899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Y ",
+            "line": 10,
+            "name": "presiono el botón ingresar",
+            "match": {
+              "location": "features\\step_definitions\\login.steps.ts:43"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 671742299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Entonces ",
+            "line": 11,
+            "name": "debería ver el mensaje \"Por favor, completa ambos campos.\"",
+            "match": {
+              "location": "features\\step_definitions\\login.steps.ts:58"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7899800
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 831943199
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "inicio-de-sesión;validar-credenciales-de-inicio-de-sesión-(log-11)",
+        "keyword": "Esquema del escenario",
+        "line": 25,
+        "name": "Validar credenciales de inicio de sesión (LOG-11)",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 219922699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 8,
+            "name": "que estoy en la página de inicio de sesión",
+            "match": {
+              "location": "features\\step_definitions\\login.steps.ts:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1403064600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Cuando ",
+            "line": 9,
+            "name": "ingreso el correo \"harry.com\" y la contraseña \"hermione2025\"",
+            "match": {
+              "location": "features\\step_definitions\\login.steps.ts:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 424492200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Y ",
+            "line": 10,
+            "name": "presiono el botón ingresar",
+            "match": {
+              "location": "features\\step_definitions\\login.steps.ts:43"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 58290100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Entonces ",
+            "line": 11,
+            "name": "debería ver el mensaje \"Por favor, ingrese un correo electrónico válido.\"",
+            "match": {
+              "location": "features\\step_definitions\\login.steps.ts:58"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13555899
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 787905999
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "inicio-de-sesión;validar-credenciales-de-inicio-de-sesión-(log-12)",
+        "keyword": "Esquema del escenario",
+        "line": 26,
+        "name": "Validar credenciales de inicio de sesión (LOG-12)",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 233447400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 8,
+            "name": "que estoy en la página de inicio de sesión",
+            "match": {
+              "location": "features\\step_definitions\\login.steps.ts:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 466200299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Cuando ",
+            "line": 9,
+            "name": "ingreso el correo \"harry.com\" y la contraseña \"123\"",
+            "match": {
+              "location": "features\\step_definitions\\login.steps.ts:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 381259500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Y ",
+            "line": 10,
+            "name": "presiono el botón ingresar",
+            "match": {
+              "location": "features\\step_definitions\\login.steps.ts:43"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 40095699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Entonces ",
+            "line": 11,
+            "name": "debería ver el mensaje \"Por favor, ingrese un correo electrónico válido.\"",
+            "match": {
+              "location": "features\\step_definitions\\login.steps.ts:58"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7448499
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 762141999
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "inicio-de-sesión;log-13---advertir-después-de-tres-intentos-fallidos-consecutivos",
+        "keyword": "Escenario",
+        "line": 28,
+        "name": "LOG-13 - Advertir después de tres intentos fallidos consecutivos",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 265707800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 29,
+            "name": "que estoy en la página de inicio de sesión",
+            "match": {
+              "location": "features\\step_definitions\\login.steps.ts:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 474683399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Cuando ",
+            "line": 30,
+            "name": "intento iniciar sesión 3 veces con el correo \"ron@hogwarts.com\" y la contraseña \"123\"",
+            "match": {
+              "location": "features\\step_definitions\\login.steps.ts:47"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 518625199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Entonces ",
+            "line": 31,
+            "name": "debería ver la advertencia de bloqueo \"Atención, su cuenta está a punto de ser bloqueada.\"",
+            "match": {
+              "location": "features\\step_definitions\\login.steps.ts:69"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 13077400,
+              "error_message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"Atención, su cuenta está a punto de ser bloqueada.\"\u001b[39m\nReceived: \u001b[31m\"\"\u001b[39m\n    at captureRawStack (C:\\Users\\sarso\\proyecto-4-login\\node_modules\\playwright-core\\lib\\coreBundle.js:9282:17)\n    at callMatcherAsStep (C:\\Users\\sarso\\proyecto-4-login\\node_modules\\playwright\\lib\\matchers\\expect.js:13316:57)\n    at Object.toBe (C:\\Users\\sarso\\proyecto-4-login\\node_modules\\playwright\\lib\\matchers\\expect.js:13308:23)\n    at World.<anonymous> (C:\\Users\\sarso\\proyecto-4-login\\features\\step_definitions\\login.steps.ts:72:55)"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 737850800
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "inicio-de-sesión",
+    "line": 2,
+    "keyword": "Característica",
+    "name": "Inicio de sesión",
+    "tags": [],
+    "uri": "features\\login.feature"
+  }
+]
